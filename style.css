@@ -1,0 +1,147 @@
+.pinkcolor{
+    color: rgb(252, 180, 192);
+}
+
+.hero{
+    margin-top: 86px !important;
+}
+li :hover{
+    color: rgb(252, 180, 192) !important;
+   
+   transition: all 0.4s;
+
+}
+li{
+    font-weight: bolder;
+    color: black !important;
+    list-style: none;
+
+}
+input{
+    height: 60px;
+    width: 600px ;
+    margin-top: 33px;
+    border: 2px solid rgb(151, 139, 139);
+    box-shadow: 10px 10px 18px rgb(114, 110, 110);
+}
+.box{
+    height: 200px;
+    width: 400px;
+    border: 2px solid beige;
+    margin-bottom: 5px;
+    
+}
+.box:hover{
+    background-color: rgb(253, 128, 149);
+    transition: 0.4s;
+    color: white;
+  
+    transition: all 0.4s ease-in-out;
+    box-shadow: 12px 12px 12px pink !important;
+    
+  
+    
+}
+.daba:hover{
+    transform: scale(0.9);
+    transition: all 0.4s ease-in-out;
+    
+}
+.footer{
+    height: 200px;
+    width: 340px;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+
+#footerImg{
+    border: 2px solid rgb(255, 144, 162);
+    border-radius: 50%;
+   
+}
+
+@media only screen and (min-width: 1000px) {
+    .h1Space {
+        font-size: 66px !important;
+        font-weight: 400 !important;
+    }
+    
+}
+.forselect{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    border: 2px solid rgb(182, 165, 165);
+    border-radius: 12px;
+}
+.forselect:hover{
+    background-color: rgb(248, 169, 222);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border: 2px solid rgb(182, 165, 165);
+    border-radius: 12px;
+    scale: 1.1;
+    transition: all 0.1s;
+}
+.boxeee{
+    height: 100px;
+    box-shadow: 14px 14px 15px rgb(255, 177, 177);
+    border-radius: 12px;
+    width:  auto;
+    margin-left: auto;
+    margin-right: auto !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: pink;
+    border-radius: 12px;
+}
+::-webkit-scrollbar{
+    
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+ background-color: rgb(138, 148, 138);
+ 
+}
+
+#navbtn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 123, 123) !important;
+}
+#navbtn:hover{
+    background-color: rgb(255, 170, 170);
+    color: white;
+}
+#lastitems ul li:hover{
+    color: pink !important ;
+    transition: all 0.3s;
+
+}
+#lastitems ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 6px !important;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+    .navImg{
+        width: 200px;
+    }
+    .hero{
+        margin-top: 66px !important;
+    }
+    input{
+        height: 60px;
+        width: 100% ;
+        margin-top: 30px;
+    }
+    .footer{
+        width: 100%;
+        height: 100px;
+    }
+
+}
